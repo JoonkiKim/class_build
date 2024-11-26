@@ -11,10 +11,10 @@ export default function BoardsPage() {
   );
 }
 
-export const getServerSideProps = () => {
+// export const getServerSideProps = () => {
 
-// 만약 서버사이드 렌더링을 하는 페이지라면, out폴더로 생성할 수 없음
+// // 만약 서버사이드 렌더링을 하는 페이지라면, out폴더로 생성할 수 없음
 
 
-// 이런경우, next.config.js에서 exportPathMap으로 현재 페이지 제외시키기
-}
+// // 이런경우, next.config.js에서 exportPathMap으로 현재 페이지 제외시키기
+// }
